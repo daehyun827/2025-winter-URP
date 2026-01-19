@@ -13,7 +13,7 @@ from tqdm import tqdm
 import matplotlib.pyplot as plt
 from MODEL import MyModel
 from focal_loss import FocalLoss
-from Train_loader import TrainDataset
+from Data_loader import TrainDataset
 
 train_path = r'C:\Users\uuuuu\plm\myproject\data\dataset\data_TRAIN.pt'
 save_path = r'C:\Users\uuuuu\plm\myproject\results\test_2\model'

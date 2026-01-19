@@ -3,7 +3,7 @@ import torch
 from tqdm import tqdm
 from torch.utils.data import DataLoader
 from MODEL import MyModel
-from Test_loader import TestDataset
+from Data_loader import TestDataset
 
 test_path = r'C:\Users\uuuuu\plm\myproject\data\dataset\data_TEST.pt'
 
